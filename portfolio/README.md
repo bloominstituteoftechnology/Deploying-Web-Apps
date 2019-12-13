@@ -2,6 +2,8 @@ Project bootstrapped with [Yet Another React Boilerplate](https://github.com/jas
 
 # Yet Another React Boilerplate
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
 A (very opinionated) React SPA project boilerplate built with Webpack that includes:
 
 - Dynamic, client-side routing
@@ -96,27 +98,27 @@ Here are the included scripts you can use after installation and their provided 
 
 Starts the dev server with live reload when you make a change to the code.
 
-Run with `npm start`.
+Run with `yarn start`.
 
 ### Build
 
 Makes a production build, complete with optimized assets including responsive images for devices with different viewport sizes and pixel densities.
 
-Run with `npm run build`.
+Run with `yarn build`.
 
 ### Test
 
 Uses Jest and React Testing Library to run your tests.
 
-Use `npm test` to start the test runner, which will run tests on changed files as you make edits.
+Use `yarn test` to start the test runner, which will run tests on changed files as you make edits.
 
-Use `npm run test:run` to run all tests once.
+Use `yarn test:run` to run all tests once.
 
-Use `npm run test:all` to watch for file changes and then run _all_ tests on each change.
+Use `yarn test:all` to watch for file changes and then run _all_ tests on each change.
 
-Use `npm run test:update` to update tests, including snapshots, and then run all tests.
+Use `yarn test:update` to update tests, including snapshots, and then run all tests.
 
-Use `npm run test:coverage` or to generate coverage statistics for your test suite.
+Use `yarn test:coverage` or to generate coverage statistics for your test suite.
 
 ### Lint
 
@@ -125,11 +127,11 @@ Runs one or both of:
 - ESLint on your JS/JSX code
 - Stylelint on your CSS/SCSS and CSS-in-JS
 
-Use `npm run lint` to lint everything.
+Use `yarn lint` to lint everything.
 
-Use `npm run lint:css` to lint all your styles only.
+Use `yarn lint:css` to lint all your styles only.
 
-Use `npm run lint:js` to lint all your JS/JSX only.
+Use `yarn lint:js` to lint all your JS/JSX only.
 
 _Note: I highly recommend you set up automatic linting in your editor if it doesn't handle it automatically_
 
@@ -137,7 +139,7 @@ _Note: I highly recommend you set up automatic linting in your editor if it does
 
 Uses Prettier to format JS/JSX.
 
-Run with `npm run format`.
+Run with `yarn format`.
 
 _Note: I highly recommend setting up Prettier to run automatically in your editor so files are formatted when you change them_
 
@@ -145,7 +147,7 @@ _Note: I highly recommend setting up Prettier to run automatically in your edito
 
 Serves your production build at `http://127.0.0.1:5000` and opens a new browser tab for it.
 
-Run with `npm run serve`
+Run with `yarn serve`
 
 ## Included React packages
 
@@ -224,7 +226,7 @@ cd [folder-name]
 
 rm -rf .git # so you can initialize your own repo
 
-npm install
+yarn install
 # or
 yarn
 ```
@@ -232,6 +234,8 @@ yarn
 ## Contributing
 
 Simply submit a PR and let's talk! If you have an idea but not a fully-formed code solution, either an issue or draft PR will do.
+
+Please note that this project uses a [contributor code of conduct](CODE_OF_CONDUCT.md) to maintain a welcoming, inclusive, and healthy community to promote a positive experience for as many people as possible. By participating, you agree to abide by its terms.
 
 ## Author
 
