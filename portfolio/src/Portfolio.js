@@ -14,9 +14,7 @@ function Portfolio() {
         <div className="left-content">
           <h2>About Me</h2>
           <img src={profile} alt="chest-up-profile of Trey McGarity"/>
-          <p>My legal name is Jerry Glenn McGarity III. I graduated from highschool in 2017; futhermore, I graduated with a Associates Degree majoring in Computer Science from Motlow State Community College in the summer of 2019. In my opinion traditional schooling wasn't preparing me for career in development, so I changed gears.</p>
-          <p>Cell number: (256)929-3066</p>
-          <h3></h3>
+          <p>My name Jerry (Trey) Glenn McGarity III. I graduated from highschool in 2017; futhermore, I graduated with a Associates Degree majoring in Computer Science from Motlow State Community College in the summer of 2019. In my opinion traditional schooling wasn't preparing me for career in development, so I changed gears.</p>
           <p>I am currently a part-time student at Lambda School for Full Stack Web Development. I appreciate the focus of the curriculum of Lambda because it's specifically job-like development training and there is a plethora of advisors and peers to help Lambda students along the way.</p>
           <p>I believe Lambda will help me to start a honest, successful career as a developer!</p>
         </div>
