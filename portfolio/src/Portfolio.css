@@ -1,0 +1,92 @@
+html {
+  font-size: 62.55%;
+}
+
+body {
+  background-image: url("./images/dark-wood-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  margin-left: 1em;
+  color: white;
+}
+
+h2 {
+  border-bottom: .1rem solid black;
+}
+
+h3 {
+  border-bottom: .1rem dashed black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  font-size: 3em;
+}
+
+.header img {
+  height: 10rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  height: 50%;
+  width: 100%;
+  border-top: .1rem solid black;
+  font-size: 2.5em;
+  color: black;
+}
+
+.left-content {
+  width: 33%;
+  padding: 1%;
+  background-image: url("./images/grey-linen-texture-background.jpg");
+  border: .1rem solid black;
+}
+
+.left-content img {
+  height: 25%;
+  width: 70%;
+  margin-left: 10%;
+  border: .2rem solid black;
+}
+
+.middle-content{
+  display:flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 1%;
+  background-image: url("./images/grey-linen-texture-background.jpg");
+  border: .1rem solid black;
+}
+
+.middle-content img {
+  height: 5rem;
+  width: 7rem;  
+}
+
+.skills {
+  height: 35%;
+}
+
+.right-content {
+  width: 33%;
+  padding: 1%;
+  background-image: url("./images/grey-linen-texture-background.jpg");
+  border: .1rem solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  height: 10rem;
+}
