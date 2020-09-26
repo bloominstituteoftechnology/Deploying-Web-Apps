@@ -21,12 +21,6 @@ Follow these steps for completing your project.
 
 After you have figured out which project you want to deploy, sign up for an account with ZEIT and start the deployment process as outlined in training kit for this module. Once the project is deployed, you will add it to your porfolio site. Finally, work on updating this project so that it is polished and bug free! Good luck!
 
-### Task 2b: Exit Ticket
-
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/NPCMjS7wWb6ZBvuEX/twzJjqLSfM9KNK).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
-
 ### Task 3: Stretch Problems
 
 Do not attempt stretch problems until MVP has been reached and a final commit has been made.
@@ -35,4 +29,3 @@ Work on deploying a second, or even third portfolio project. If you have extra t
 
 ## Submission Format
 * [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
-* [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR **or published site**
