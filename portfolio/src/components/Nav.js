@@ -8,7 +8,7 @@
                 <a href='header'>Home</a>
                 <a href='projects-section'>Projects</a>
                 <a href='about-section'>About</a>
-                <a href=''>Contact</a>
+                <a href='contact'>Contact</a>
             </nav>
         </div>
     )

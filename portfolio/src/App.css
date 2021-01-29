@@ -37,6 +37,13 @@
   
 }
 
+.links{
+  margin: 2rem;
+  width: 3vw;
+  height: 5vh;
+  color: black;
+}
+
 .about-section{
   display: flex;
 }
