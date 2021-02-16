@@ -12,8 +12,12 @@ const Header = () =>{
             </div>
             <div>
                 <h1>DIEGO ROMAN</h1>
-                <img className='links' src={github} alt='github' />
-                <img className='links' src={linkedIn} alt='LinkedIn'/>
+                < a href='https://github.com/Diegormnv' target='_blank'>
+                    <img className='links' src={github} alt='github' />
+                </a>
+                <a href='https://www.linkedin.com/in/diego-roman-743897142/' target='_blank'>
+                    <img className='links' src={linkedIn} alt='LinkedIn'/>
+                </a>    
             </div>
             
         </div>
