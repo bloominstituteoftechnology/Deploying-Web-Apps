@@ -1,6 +1,9 @@
+const Nav = (props) =>{
 
-
- const Nav = () =>{
+    const toggleMode = e => {
+        e.preventDefault();
+        props.setDarkMode(!props.darkMode);
+      };
 
     return(
         <div className='navigation'>
@@ -10,6 +13,12 @@
                 <a href='about-section'>About</a>
                 <a href='contact'>Contact</a>
             </nav>
+            <div className="dark-mode__toggle">
+        <div
+          onClick={toggleMode}
+          className={props.darkMode ? 'toggle toggled' : 'toggle'}
+        />
+      </div>
         </div>
     )
 };

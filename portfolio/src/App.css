@@ -42,6 +42,7 @@
   width: 3vw;
   height: 5vh;
   color: black;
+  
 }
 
 .about-section{
@@ -49,17 +50,14 @@
 }
 
 .img-container{
-  margin-right: 7rem;
-  width: 25vw;
-  height:40vh;
-}
-
-img{
-  width: 25vw;
-  height:40vh;
+  background-image: url(./assests/portrait.png);
+  background-position: center;
+  background-size: cover;
   border-radius: 50%;
+  margin-right: 7rem;
+  width: 20vw;
+  height:40vh;
 }
-
 
 a{
   padding: 2rem;
